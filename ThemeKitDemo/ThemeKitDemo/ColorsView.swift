@@ -1,5 +1,5 @@
 import SwiftUI
-import ThemeKit
+import ThemeKitSwitfUI
 
 struct ColorsView: View {
     private let itemPerRow: CGFloat = 3

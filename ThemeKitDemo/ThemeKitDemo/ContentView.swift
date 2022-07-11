@@ -1,5 +1,5 @@
 import SwiftUI
-import ThemeKit
+import ThemeKitSwitfUI
 
 struct ContentView: View {
     var body: some View {

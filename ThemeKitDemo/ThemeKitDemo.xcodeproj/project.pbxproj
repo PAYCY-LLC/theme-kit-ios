@@ -11,9 +11,9 @@
 		D31B40DE28782E3400EDE1BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B40DD28782E3400EDE1BF /* ContentView.swift */; };
 		D31B40E028782E3600EDE1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31B40DF28782E3600EDE1BF /* Assets.xcassets */; };
 		D31B40E328782E3600EDE1BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31B40E228782E3600EDE1BF /* Preview Assets.xcassets */; };
-		D31B40ED28782E8C00EDE1BF /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = D31B40EC28782E8C00EDE1BF /* ThemeKit */; };
 		D31B40EF287BEFE100EDE1BF /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B40EE287BEFE100EDE1BF /* ColorsView.swift */; };
 		D31B40F1287C112000EDE1BF /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B40F0287C112000EDE1BF /* FontsView.swift */; };
+		D31B40FB287C161C00EDE1BF /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = D31B40FA287C161C00EDE1BF /* ThemeKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,9 @@
 		D31B40DD28782E3400EDE1BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D31B40DF28782E3600EDE1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D31B40E228782E3600EDE1BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D31B40EA28782E6E00EDE1BF /* ThemeKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ThemeKit; path = ..; sourceTree = "<group>"; };
 		D31B40EE287BEFE100EDE1BF /* ColorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
 		D31B40F0287C112000EDE1BF /* FontsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
+		D31B40F9287C161300EDE1BF /* ThemeKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ThemeKit; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D31B40ED28782E8C00EDE1BF /* ThemeKit in Frameworks */,
+				D31B40FB287C161C00EDE1BF /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 		D31B40E928782E6E00EDE1BF /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				D31B40EA28782E6E00EDE1BF /* ThemeKit */,
+				D31B40F9287C161300EDE1BF /* ThemeKit */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -110,7 +110,7 @@
 			);
 			name = ThemeKitDemo;
 			packageProductDependencies = (
-				D31B40EC28782E8C00EDE1BF /* ThemeKit */,
+				D31B40FA287C161C00EDE1BF /* ThemeKit */,
 			);
 			productName = ThemeKitDemo;
 			productReference = D31B40D828782E3400EDE1BF /* ThemeKitDemo.app */;
@@ -372,7 +372,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D31B40EC28782E8C00EDE1BF /* ThemeKit */ = {
+		D31B40FA287C161C00EDE1BF /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
 		};

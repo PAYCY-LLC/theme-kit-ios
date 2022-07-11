@@ -1,5 +1,5 @@
 import SwiftUI
-import ThemeKit
+import ThemeKitSwitfUI
 
 struct FontsView: View {
     private let items: [Item] = [
